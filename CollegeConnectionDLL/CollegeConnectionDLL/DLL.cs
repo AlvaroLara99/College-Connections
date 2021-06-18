@@ -12,7 +12,7 @@ namespace CollegeConnectionDLL
     public class DLL
     {
         //Connection to the database
-        private static SqlConnection _cntITSE1392 = new SqlConnection(@"Server=cstnt.tstc.edu;Database=itse1392fa20; User Id=alarafa201392; password=1638146");
+        private static SqlConnection _cntITSE1392 = new SqlConnection(@"Server='';Database=''; User Id=''; password=''");
         private static StringBuilder _errorMessages = new StringBuilder();
 
         //Sql commands
